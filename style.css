@@ -1,0 +1,198 @@
+body{
+   margin : 0px;
+   
+}
+header{
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.trangchu{
+   font-family: arial;
+   font-weight: 400;
+   color: #fff;
+   text-decoration: none;
+}
+.trangchu:hover{
+   font-family: arial;
+   font-weight: 400;
+   color: orange;
+   text-decoration: none;
+}
+.truyenchu{
+   font-family: arial;
+   font-weight: 400;
+   color: #ffffff92;
+   text-decoration: none;
+}
+.truyenchu:hover{
+   font-family: arial;
+   font-weight: 400;
+   color: orange;
+   text-decoration: none;
+}
+.phimbo{
+   font-family: arial;
+   font-weight: 400;
+   color: #ffffffa6;
+   text-decoration: none;
+}
+.phimbo:hover{
+   font-family: arial;
+   font-weight: 400;
+   color: orange;
+   text-decoration: none;
+}
+.VLeague{
+   font-family: arial;
+   font-weight: 400;
+   color: #ffffffa0;
+   text-decoration: none;
+}
+.VLeague:hover{
+   font-family: arial;
+   font-weight: 400;
+   color: orange;
+   text-decoration: none;
+}
+
+.Anime{
+   font-family: arial;
+   font-weight: 400;
+   color: #ffffff98;
+   text-decoration: none;
+}
+.Anime:hover{
+   font-family: arial;
+   font-weight: 400;
+   color: orange;
+   text-decoration: none;
+}
+.Xemthem{
+   font-family: arial;
+   font-weight: 400;
+   color: #ffffff96;
+   text-decoration: none;
+}
+.Xemthem:hover{
+   font-family: arial;
+   font-weight: 400;
+   color: orange;
+   text-decoration: none;
+}
+.DangNhap{
+   font-family: arial;
+   font-weight: 400;
+   color: #fff;
+   text-decoration: none;
+}
+.DangNhap:hover{
+   font-family: arial;
+   font-weight: 400;
+   color: #ffffff8e;
+   text-decoration: none;
+}
+.Muagoi{
+   font-family: arial;
+   font-weight: 400;
+   color: #fff;
+   text-decoration: none;
+}
+
+button{
+   color: white;
+   background: linear-gradient(to right, rgb(255, 119, 0), rgb(255, 145, 0));
+   border: 0px;
+   border-radius: calc(10px) ;
+   padding: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 40px;
+   width: 120px;
+   font-weight: 400;
+   
+}
+button:hover{
+   color: rgba(255, 255, 255, 0.515);
+   background: linear-gradient(to right, rgb(255, 119, 0), rgb(255, 145, 0));
+   border: 0px;
+   border-radius: calc(10px) ;
+   padding: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 40px;
+   width: 120px;
+   font-weight: 400;
+   
+}
+
+.ogiua{
+   display: flex;
+   justify-content: space-between;
+   font-weight: 300;
+   font-family: Arial;
+   align-items: center;
+   width: 600px;
+}
+.gocphai{
+   display: flex;
+   justify-content: space-between;
+   font-weight: 300;
+   font-family: Arial;
+   align-items: center;
+   width: 300px;
+}
+.logo{
+   margin-left: 20px;
+}
+.slider{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 50vh;
+   width: 100vw;
+}
+.slide{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   display: none;
+}
+.slides{
+   position: relative;
+    height: 50vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.active1{
+    display: block;
+    animation: chayvo 5s forwards;
+}
+.active2{
+    display: block;
+    animation: chayra 5s forwards;
+}
+@keyframes chayra{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes chayvo{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
